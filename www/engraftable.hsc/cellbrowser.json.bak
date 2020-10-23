@@ -1,0 +1,19 @@
+{
+  "name": "engraftable.hsc",
+  "shortLabel": "engraftable.hsc",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "cluster",
+  "labelField": "cluster",
+  "enumFields": [
+    "cluster"
+  ],
+  "coords": [
+    {
+      "file": "/rprojectnb2/crem-bioinfo/project_workspace/19_06_24_kim_citeseq/calculations/CReM-BU.github.io/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    }
+  ],
+  "inDir": ""
+}

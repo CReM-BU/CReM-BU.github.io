@@ -1,0 +1,6 @@
+{
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz"
+  ],
+  "matrixFile": "./www/engraftable.hsc/exprMatrix.tsv.gz"
+}

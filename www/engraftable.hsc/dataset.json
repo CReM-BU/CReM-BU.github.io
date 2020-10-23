@@ -1,0 +1,139 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/rprojectnb2/crem-bioinfo/project_workspace/19_06_24_kim_citeseq/calculations/CReM-BU.github.io/meta.tsv",
+      "md5": "a2892450dc",
+      "size": 833117,
+      "mtime": "2020-10-23 05:45:43"
+    },
+    "outMeta": {
+      "fname": "./www/engraftable.hsc/meta.tsv",
+      "md5": "a2892450dc",
+      "size": 833117,
+      "mtime": "2020-10-23 05:57:07"
+    },
+    "inMatrix": {
+      "fname": "/rprojectnb2/crem-bioinfo/project_workspace/19_06_24_kim_citeseq/calculations/CReM-BU.github.io/exprMatrix.tsv.gz",
+      "md5": "322b4a12fc",
+      "size": 87277084,
+      "mtime": "2020-10-23 05:45:43"
+    },
+    "outMatrix": {
+      "fname": "./www/engraftable.hsc/exprMatrix.tsv.gz",
+      "md5": "322b4a12fc",
+      "size": 87277084,
+      "mtime": "2020-10-23 05:57:09"
+    },
+    "conf": {
+      "fname": "/rprojectnb2/crem-bioinfo/project_workspace/19_06_24_kim_citeseq/calculations/CReM-BU.github.io/cellbrowser.conf",
+      "md5": "e9b3470c72",
+      "size": 351,
+      "mtime": "2020-10-23 05:45:43"
+    }
+  },
+  "sampleCount": 26407,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 26407,
+      "md5": "9bec8ba205"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 5872,
+      "md5": "c2f63fde31"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3214,
+      "md5": "2173050b99"
+    },
+    {
+      "name": "cluster",
+      "label": "cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          6500
+        ],
+        [
+          "1",
+          4510
+        ],
+        [
+          "2",
+          4115
+        ],
+        [
+          "3",
+          2520
+        ],
+        [
+          "4",
+          2067
+        ],
+        [
+          "5",
+          1731
+        ],
+        [
+          "6",
+          1648
+        ],
+        [
+          "7",
+          1631
+        ],
+        [
+          "8",
+          1194
+        ],
+        [
+          "9",
+          450
+        ],
+        [
+          "10",
+          41
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 11,
+      "md5": "1ce3c59994"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "b238f73a3b",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "markers": [],
+  "name": "engraftable.hsc",
+  "shortLabel": "engraftable.hsc",
+  "clusterField": "cluster",
+  "md5": "b6d255bc33"
+}
